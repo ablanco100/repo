@@ -26,34 +26,6 @@ class PlayerControllerTest {
     private PlayerService playerService;
 
 //    @Test
-//    void testGetPlayers() throws Exception {
-//        mockMvc.perform(get(PlayerController.PLAYER_RESOURCES+ "/find/{id}", "1"))
-//                .andExpect(MockMvcResultMatchers.status().is(HttpStatus.OK.value()))
-//                .andExpect(MockMvcResultMatchers.jsonPath("$.id").value("1"))
-//                .andReturn()
-//                .getResponse()
-//                .getContentAsString();
-//    }
-//
-//    @Test
-//    void testGetTaskNotFound() throws Exception {
-//        mockMvc.perform(get(PlayerController.PLAYER_RESOURCES+ "/find/{id}", "150"))
-//               .andExpect(MockMvcResultMatchers.status().is(HttpStatus.NOT_FOUND.value()));
-//    }
-//
-//    @Test
-//    void testGetTaskBadRequest() throws Exception {
-//        mockMvc.perform(get(PlayerController.PLAYER_RESOURCES+ "/find/{id}", 0))
-//               .andExpect(MockMvcResultMatchers.status().is(HttpStatus.BAD_REQUEST.value()));
-//    }
-//
-//    @Test
-//    void testGetTaskMethodNotAllowed() throws Exception {
-//        mockMvc.perform(get(PlayerController.PLAYER_RESOURCES))
-//               .andExpect(MockMvcResultMatchers.status().is(HttpStatus.METHOD_NOT_ALLOWED.value()));
-//    }
-
-//    @Test
 //    public void testAddShouldReturn201Created() throws Exception {
 //    	Player player = new Player("1", "Roger", 1, "M", List.of(new Attribute("ability",85), new Attribute("force",80)));
 //     
