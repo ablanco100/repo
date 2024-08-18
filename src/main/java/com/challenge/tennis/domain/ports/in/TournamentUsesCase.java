@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Optional;
 
 import com.challenge.tennis.domain.models.Tournament;
+
 public interface TournamentUsesCase {
 	
     Optional<Tournament> getTournament(String id);
@@ -13,5 +14,4 @@ public interface TournamentUsesCase {
     boolean update(Tournament tournament);
     boolean delete(String id);
     Tournament play(Tournament tournament);
-    
 }

@@ -73,5 +73,4 @@ public class Tournament {
 	public void setWinner(String winner) {
 		this.winner = winner;
 	}
-
 }

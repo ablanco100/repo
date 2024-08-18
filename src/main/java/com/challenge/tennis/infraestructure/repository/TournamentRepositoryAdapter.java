@@ -50,5 +50,4 @@ public class TournamentRepositoryAdapter implements TournamentRepositoryPort {
         }
         return false;
     }
-
 }

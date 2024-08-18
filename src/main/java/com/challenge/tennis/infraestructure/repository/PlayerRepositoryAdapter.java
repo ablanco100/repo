@@ -49,7 +49,4 @@ public class PlayerRepositoryAdapter implements PlayerRepositoryPort {
         }
         return false;
     }
-
-	
-
 }

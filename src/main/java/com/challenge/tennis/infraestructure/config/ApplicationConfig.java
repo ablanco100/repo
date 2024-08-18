@@ -34,5 +34,4 @@ public class ApplicationConfig {
     public TournamentRepositoryPort tournamentRepositoryPort(TournamentRepositoryAdapter tournamentRepositoryAdapter){
         return tournamentRepositoryAdapter;
     }
-
 }

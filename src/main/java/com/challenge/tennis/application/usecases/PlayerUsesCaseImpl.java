@@ -9,7 +9,8 @@ import java.util.List;
 import java.util.Optional;
 
 public class PlayerUsesCaseImpl implements PlayerUsesCase {
-    private final PlayerRepositoryPort playerRepositoryPort;
+    
+	private final PlayerRepositoryPort playerRepositoryPort;
     
     public PlayerUsesCaseImpl(PlayerRepositoryPort playerRepositoryPort) {
         this.playerRepositoryPort = playerRepositoryPort;
@@ -39,5 +40,4 @@ public class PlayerUsesCaseImpl implements PlayerUsesCase {
     public boolean delete(String id) {
         return playerRepositoryPort.delete(id);
     }
-
 }

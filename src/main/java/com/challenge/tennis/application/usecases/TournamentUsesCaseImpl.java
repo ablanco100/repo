@@ -16,11 +16,10 @@ import com.challenge.tennis.domain.ports.out.PlayerRepositoryPort;
 import com.challenge.tennis.domain.ports.out.TournamentRepositoryPort;
 
 public class TournamentUsesCaseImpl implements TournamentUsesCase {
-    private final TournamentRepositoryPort tournamentRepositoryPort;
+    
+	private final TournamentRepositoryPort tournamentRepositoryPort;
     private final PlayerRepositoryPort playerRepositoryPort;
-    
-    
-    
+           
     public TournamentUsesCaseImpl(TournamentRepositoryPort tournamentRepositoryPort, PlayerRepositoryPort playerRepositoryPort) {
         this.tournamentRepositoryPort = tournamentRepositoryPort;
 		this.playerRepositoryPort = playerRepositoryPort;

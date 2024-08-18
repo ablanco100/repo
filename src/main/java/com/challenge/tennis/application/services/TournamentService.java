@@ -10,7 +10,6 @@ public class TournamentService implements TournamentUsesCase {
 
     private final TournamentUsesCase tournamentUsesCase;
 
-
     public TournamentService(TournamentUsesCase tournamentUsesCase) {
         this.tournamentUsesCase = tournamentUsesCase;
     }
@@ -49,5 +48,4 @@ public class TournamentService implements TournamentUsesCase {
     public Tournament play(Tournament tournament) {
         return tournamentUsesCase.play(tournament);
     }
-    
 }

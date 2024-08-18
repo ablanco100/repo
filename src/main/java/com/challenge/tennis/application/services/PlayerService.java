@@ -11,7 +11,6 @@ public class PlayerService implements PlayerUsesCase {
 
     private final PlayerUsesCase playerUsesCase;
 
-
     public PlayerService(PlayerUsesCase playerUsesCase) {
         this.playerUsesCase = playerUsesCase;
     }
@@ -39,6 +38,5 @@ public class PlayerService implements PlayerUsesCase {
     @Override
     public boolean delete(String id) {
         return playerUsesCase.delete(id);
-    }
-    
+    }  
 }

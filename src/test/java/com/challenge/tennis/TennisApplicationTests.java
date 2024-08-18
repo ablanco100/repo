@@ -20,14 +20,12 @@ import com.challenge.tennis.domain.models.Attribute;
 class TennisApplicationTests {
 
 	private static Logger LOG = LoggerFactory.getLogger(TennisApplicationTests.class);	
-
 	
 	@Autowired 
 	private PlayerService playerService;
 	
 	@Autowired 
 	private TournamentService tournamentService;
-	
 	
 	@Test
 	void initBD() {
@@ -99,5 +97,4 @@ class TennisApplicationTests {
 		//LOG.info("Se borra el player con id 4");
 		//playerService.delete("4");
 	}
-
 }
